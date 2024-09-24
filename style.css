@@ -69,7 +69,7 @@ nav{
     /* margin-top:10% ; */
     text-align: center;
     /* height: 150vh; */
-   border: red;
+     
    
 }
 .Heading1{
@@ -137,8 +137,18 @@ nav{
     color: rgba(97, 93, 93, 0.904);
 }
 .section2{
-    margin-left:8.5rem ;
+    display: flex;
+    border: 2px solid black;
+   justify-content: space-around;
     
+}
+.classA{
+    border:2px solid grey ;
+    width: 40%;
+}
+.classB{
+    border:2px solid greenyellow ;
+    width: 40%;
 }
 .h1{
     font-size:2.5rem ;
@@ -150,7 +160,7 @@ nav{
 
 }
  .paragraph2{
-    width: 50%;
+    width: 100%;
     color: rgb(17, 16, 16);
     font-weight: 500;
     line-height:1.5rem ;
@@ -169,12 +179,12 @@ nav{
 
  }
  .mainimg2{
-    display: flex;
+    /* display: flex;
     margin-bottom: 19rem;
    
     position: relative;
     margin-left:50% ;
-   width: 30rem;
+   width: 30rem; */
  }
 
 
