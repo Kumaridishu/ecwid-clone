@@ -155,9 +155,9 @@ nav {
 
 
 
-p {
+/* p {
     color: rgba(97, 93, 93, 0.904);
-}
+} */
 
 .section2 {
     display: flex;
@@ -237,12 +237,12 @@ p {
     
 }
 
-p {
+/* p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     line-height: 1.5rem;
 
-}
+} */
 
 .sm2{
     font-family: "Exo 2", sans-serif;
@@ -323,17 +323,108 @@ p {
   margin-top: 6rem;
    
 }
-.section3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .review{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top:3rem ;
     margin-right:5rem ;
+}
+
+/* secrion 3 srtars hwrer------------------------------------------ */
+.section3{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+/* .section3_img{
+    width: 12rem;
+} */
+ .section3_partB{
+    width: 50%;
+    /* border: 2px solid red; */
+    line-height: 2.5rem;
+    
+ }
+.section3_partA{
+    width: 30%;
+    /* border: 2px solid black; */
+}
+.paragraph3{
+    font-weight: 500;
+    line-height: 1.5rem;
+    width: 100%;
+    color: rgb(17, 16, 16);
+    font-weight: 500;
+
+}
+.btn3 {
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    border-radius: 5rem;
+    border: 2px solid black;
+    background-color: rgb(147, 229, 172);
+    color: rgb(7, 7, 7);
+    font-weight: 700;
+    margin-top: 3rem;
+
+}
+.btn3:hover {
+    background-color: rgb(137, 214, 155);
+
+}
+
+.btn3:hover .arrow3 {
+    transform: translateX(1rem);
+    transition: 0.5s;
+}
+.socialmedia2{
+    margin-top: 3rem;
+    display: flex;
+    gap: 4rem;
+}
+.socialB{
+    width: 45%;
+
+}
+.socialC{
+    width: 40%;
+
+
+}
+.section3_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 2px solid rgb(14, 13, 13);
+    background-color: rgb(233, 181, 104);
+    padding: 2rem 3rem; 
+   border-radius:6rem ;
+   margin-bottom:6rem ;
+}
+.para4{
+    /* width: 60%; */
+    /* border: 2px solid rebeccapurple; */
+    line-height:1.7rem ;
+    color: black;
+   font-weight: 500;
+}
+.section3_img{
+    position: relative;
+    top:  7rem;
+    width: 32rem;
+    left: -4rem;
+}
+
+.sp{
+    line-height: 1.5rem;
 }
 
 
